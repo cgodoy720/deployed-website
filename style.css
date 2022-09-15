@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    background-color: wheat;
+    justify-content: space-around;
+
+}
+div {
+    margin: 15px;
+}
+
+.relative {
+    position: relative;
+    margin-bottom: 0;
+}
+
+div:hover {
+    background-color: red;
+    height: fit-content;
+}
+
+div:hover ul {
+    display: block;
+}
+
+ul {
+    padding: 16px;
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    background-color: cyan;
+    color: black;
+}
+
+ul:hover {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    margin: 0;
+}
+
